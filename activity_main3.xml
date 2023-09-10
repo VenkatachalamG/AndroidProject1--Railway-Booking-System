@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C064CF"
+    tools:context=".MainActivity3" >
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/railroadportrait" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="183dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="149dp"
+        android:text="MAS MYS EXPRESS"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="183dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="311dp"
+        android:text="LALBAGH EXP"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="138dp"
+        android:layout_height="135dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="130dp"
+        app:srcCompat="@drawable/train_klogo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="137dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="298dp"
+        app:srcCompat="@drawable/train_klogo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="640dp"
+        android:text="HERE ARE YOUR TRAINS  FROM CHENNAI TO BANGALORE"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="142dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="456dp"
+        app:srcCompat="@drawable/train_klogo" />
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_width="136dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="28dp"
+        android:text="NEXT"
+        android:textColor="#E40450"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9800" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="183dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="478dp"
+        android:text="BRINDAVAN EXP"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio1"
+        android:layout_width="60dp"
+        android:layout_height="466dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="121dp">
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:tag="Brindavan Exp" />
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:tag="Lalbagh Exp" />
+
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="365dp"
+            android:layout_marginBottom="683dp"
+            android:tag="Mas Mys Exp" />
+
+
+    </RadioGroup>
+
+</RelativeLayout>
